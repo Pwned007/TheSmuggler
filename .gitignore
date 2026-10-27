@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+
+# scan output / generated PoC artefacts — never commit a real target's findings
+*.json
+*_poc.py
+*_request.txt
+*_evidence.md
+report.json
+bypass.json
+confirm.json
